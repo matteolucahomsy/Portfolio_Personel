@@ -9,24 +9,25 @@
 <body>
     <nav>
         <h2>Matteo Luca Homsy</h2>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact</a></li>
+        <div class="menu-toggle" id="menu-toggle">☰</div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-    <section class="hero">
+    <section class="hero" id="home">
         <div class="hero-content">
             <h1>Hi, I'm Matteo Luca Homsy</h1>
             <h3>AI Engineering Student</h3>
             <p>
                 Passionate about Artificial Intelligence, Web Development, and Software Engineering.
             </p>
-            <button>View projects</button>
+            <a href="#projects" class="btn">View projects</a>
         </div>
     </section>
-    <section class="about">
+    <section class="about" id="about">
         <div class="about-text">
             <h2>About Me</h2>
             <p>
@@ -39,9 +40,9 @@
             </p>
         </div>
     </section>
-    <section class="projects">
+    <section class="projects" id="projects">
         <h2>My Projects</h2>
-        <div class="project-conatiner">
+        <div class="project-container">
             <div class="project-card">
                 <h3>Expense Tracker</h3>
                 <p>
@@ -71,7 +72,7 @@
             </div>
         </div>
     </section>
-    <section class="Skills">
+    <section class="skills" id="skills">
         <h2>My Skills</h2>
         <div class="skills-container">
             <div class="skills-card">HTML</div>
@@ -87,7 +88,7 @@
             <div class="skills-card">PHP</div>
         </div>
     </section>
-    <section class="contact">
+    <section class="contact" id="contact">
         <h2>Contact Me</h2>
         <div class="contact-container">
             <p>Email: matteolucahomsy@gmail.com</p>
