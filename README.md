@@ -27,6 +27,8 @@ A personal portfolio website built with HTML and CSS.
 
 LinkedIn: https://www.linkedin.com/in/matteolucahomsy
 
+GitHub: https://github.com/matteolucahomsy
+
 ## 🎯 Purpose
 
 This portfolio was created to showcase my projects, skills, and learning journey as an AI Engineering student.
