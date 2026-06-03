@@ -25,7 +25,7 @@ A personal portfolio website built with HTML and CSS.
 
 ## 📧 Contact
 
-LinkedIn: Your LinkedIn URL
+LinkedIn: https://www.linkedin.com/in/matteolucahomsy
 
 ## 🎯 Purpose
 
