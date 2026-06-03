@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center; 
+   padding: 20px 50px; 
+}
+nav h2 {
+    color: #38bdf8;
+}
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+a:hover {
+    color: #38bdf8;
+}
+.hero {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+.hero-content h1 {
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+.hero-content h3 {
+    font-size: 2rem;
+    margin-bottom: 20px; 
+}
+.hero-content p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin-bottom: 30px;
+}
+.hero-content button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111827;
+    color: white;
+}
+.about {
+    padding: 100px 10%;
+}
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.about p {
+    margin-bottom: 15px;
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
+.projects{
+    padding: 100px 10%;
+}
+.projects h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+.project-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.project-card {
+    width: 300px;
+    padding: 25px;
+    background-color: #1e293b;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+.project-card:hover {
+    transform: translateY(-10px);
+}
+.project-card h3 {
+    margin-bottom: 15px;
+    color: green;
+}
+.project-card p {
+    line-height: 1.6;
+}
+.skills {
+    padding: 100px 10%;    
+}
+.skills h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+.skills-conatainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.skills-card {
+    background-color: #1e293b;
+    padding: 15px 25px;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.skills-card:hover {
+    transform: scale(1.1);
+}
+.contact {
+    padding: 100px 10%;
+    text-align: center;
+}
+.conatct h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+.contact-container p {
+    margin: 15px 0;
+    font-size: 1.2rem;
+}
